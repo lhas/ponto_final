@@ -49,3 +49,4 @@ gem 'thin'
 
 # HAML Template Engine
 gem 'haml'
+gem 'haml-rails'
