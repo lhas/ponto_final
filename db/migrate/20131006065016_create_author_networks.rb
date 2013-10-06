@@ -8,5 +8,7 @@ class CreateAuthorNetworks < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :author_networks, :author_id
+
   end
 end
